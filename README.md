@@ -1,8 +1,8 @@
-# Docker socks5 forwarder
+# Docker SOCKS5 forwarder
 
 Docker container, that expose simple no authentication proxy and send all requests to upstream SOCK5 proxy.
 
-Since chromium browsers does not support socks5 authentication, the easiest way is to spawn local proxy server and redirect all requests to parent proxy.
+Since chromium browsers does not support SOCKS5 authentication, the easiest way is to spawn local proxy server and redirect all requests to parent proxy.
 
 ```yml
 services:
