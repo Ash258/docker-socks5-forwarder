@@ -1,4 +1,4 @@
-FROM alpine:3.24.1
+FROM alpine:3.24.2
 
 ENV PROXY_PORT=1080 \
     REDSOCKS_PORT='12345' \
